@@ -1,4 +1,43 @@
-@import url(//db.onlinewebfonts.com/c/11469c307f0de6481e3a04cc5d54ae93?family=Uber+Move+Text);
+@font-face {
+    font-family: 'UberMove';
+    src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Light.woff2')
+        format('woff2'),
+      url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Light.woff')
+        format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'UberMove';
+    src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Regular.woff2')
+        format('woff2'),
+      url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Regular.woff')
+        format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'UberMove';
+    src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Medium.woff2')
+        format('woff2'),
+      url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Medium.woff')
+        format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'UberMove';
+    src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Bold.woff2')
+        format('woff2'),
+      url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Bold.woff')
+        format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  } 
 
 
 * {
@@ -39,8 +78,8 @@ body {
     line-height: 1;
     font-size: 16px;
     color: #000;
-    font-family: 'Uber Move Text';
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'UberMove', system-ui, 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
     font-weight: 400;
 }
 /* ----------------------------------------------------------------------------------------------------------------- */
@@ -248,7 +287,7 @@ i {
 
 .main-block__title {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 64px;
     
 }
@@ -379,7 +418,7 @@ i {
 .business__title {
     font-size: 34px;
     line-height: 44px;
-    font-weight: bold;
+    font-weight: 500;
     padding-top: 40px;
     margin-bottom: 20px;
 }
@@ -428,7 +467,7 @@ i {
 
 .main-title {
     font-size: 38px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 44px;
     margin: 60px 0px 35px 0px;
 }
@@ -445,7 +484,7 @@ i {
 
 .title {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 44px;
     margin: 10px 0px 5px 0px;
 }
