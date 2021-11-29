@@ -249,7 +249,7 @@ i {
 
 .main-block__title {
     font-size: 48px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 64px;
     
 }
@@ -277,7 +277,7 @@ i {
     padding: 14px 25px;
     margin: 12px 70px 40px 0px;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 20px;
 }
 
@@ -380,7 +380,7 @@ i {
 .business__title {
     font-size: 34px;
     line-height: 44px;
-    font-weight: 500;
+    font-weight: bold;
     padding-top: 40px;
     margin-bottom: 20px;
 }
@@ -400,7 +400,7 @@ i {
     padding: 14px 25px;
     margin: 12px 0px 35px 0px;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 20px;
 }
 
@@ -429,7 +429,7 @@ i {
 
 .main-title {
     font-size: 38px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 44px;
     margin: 60px 0px 35px 0px;
 }
@@ -446,7 +446,7 @@ i {
 
 .title {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 44px;
     margin: 10px 0px 5px 0px;
 }
@@ -563,7 +563,7 @@ i {
 
 .pre-footer__first-title {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 24px;
     margin: 15px 0px;
 }
@@ -607,7 +607,7 @@ i {
 
 .pre-footer__second-title {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 24px;
     margin: 15px 0px;
 }
@@ -645,7 +645,7 @@ i {
 
 .pre-footer__third-title {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 24px;
     margin: 15px 0px;
 }
